@@ -959,7 +959,7 @@ body.light-theme{
     padding: 2rem 4rem;
   }
   .services__container{
-    grid-template-columns: repeat(2, 160px);
+    grid-template-columns: repeat(4, 140px);
     justify-content: center;
   }
   .services__modal-content{
@@ -1061,7 +1061,7 @@ body.light-theme{
     display: flex;
   }
   .services__container{
-    grid-template-columns: repeat(3, 192px);
+    grid-template-columns: repeat(4, 192px);
     column-gap: 3rem;
   }
   .services__card{
