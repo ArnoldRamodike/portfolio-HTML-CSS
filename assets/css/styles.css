@@ -565,12 +565,14 @@ body.light-theme{
   position: fixed;
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, .7);
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   place-items: centre;
   visibility: hidden;
   opacity: 0;
   text-align: center;
-
+  padding: 0 10px;
   transition: .4s;
   z-index: var(--z-modal);
 }
