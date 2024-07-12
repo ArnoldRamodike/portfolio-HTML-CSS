@@ -732,6 +732,11 @@ body.light-theme{
   background-color: var(--text-color-light);
 }
 
+.demo-code{
+  display: flex;
+  justify-content: space-between;
+}
+
 /*=============== CONTACT ===============*/
 .contact__container{
   row-gap: 3rem;
@@ -994,7 +999,7 @@ body.light-theme{
     grid-template-columns: repeat(2, max-content);
   }
   .contact__container{
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
     justify-content: center;
   }
 }
