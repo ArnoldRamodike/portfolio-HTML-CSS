@@ -725,7 +725,7 @@ body.light-theme{
 
 /* Swiper class */
 .swiper-pagination-bullet{
-  background-color: var(--small-font-size);
+  background-color: var(--text-color-light);
 }
 
 .swiper-pagination-bullet-active{
