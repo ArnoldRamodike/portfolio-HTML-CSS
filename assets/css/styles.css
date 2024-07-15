@@ -844,7 +844,7 @@ body.light-theme{
 }
 
 .footer__container{
-  padding: 1rem 0 6rem;
+  padding: 1rem 0 5rem;
 }
 
 .footer__title, .footer__link{
@@ -880,7 +880,7 @@ body.light-theme{
 
 .footer__copy{
   display: block;
-  margin-top: 4.5rem;
+  margin-top: 1.5rem;
   color: var(--container-color);
   text-align: center;
   font-size: var(--small-font-size);
