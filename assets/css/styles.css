@@ -274,6 +274,12 @@ body.light-theme{
   justify-content: space-between;
   align-items: center;
 }
+/* Nav Item */
+.nav__item:hover{
+  background-color: var(--first-color);
+  border-radius: 4px;
+  color: var(--body-color);
+}
 
 .nav__link{
   color: var(--text-color);
@@ -289,7 +295,7 @@ body.light-theme{
     var(--lig), 1), hsla(var(--first-hue),
     var(--lig), .2));
     box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), .4);
-    color: var(--title-color);
+    color:  var(--first-color-alt);
 }
 
 /* Change background header */
