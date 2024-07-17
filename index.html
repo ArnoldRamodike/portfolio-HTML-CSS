@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="./assets/img/arnold.png" type="image/x-icon">
 
         <!--=============== BOXICONS ===============-->
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -16,7 +16,7 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="./assets/css/styles.css">
 
-        <title> Portfolio </title>
+        <title>Arnold's Portfolio </title>
     </head>
     <body>
         <!--=============== HEADER ===============-->
@@ -668,16 +668,16 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Write me your project</h3>
 
-                        <form action="" class="contact__form" action="http://formsubmit.co/riccoarnold23@gmail.com" method="POST">
+                        <form target="_blank" class="contact__form" action="https://formsubmit.co/riccoarnold23@gmail.com" method="POST">
                             <input type="hidden" name="_captcha" value="false">
                           <div class="contact__form-div">
                             <label for="" class="contact__form-tag">Name</label>
-                            <input type="text" placeholder="Inser your Name or Subject" class="contact__form-input" name="subject">
+                            <input type="text" placeholder="Inser your Name or Subject" class="contact__form-input" name="name">
                           </div>
 
                           <div class="contact__form-div">
                             <label for="" class="contact__form-tag">Mail</label>
-                            <input type="email" placeholder="Enter your Email" class="contact__form-input" required>
+                            <input type="email" name="email" placeholder="Enter your Email" class="contact__form-input" required>
                           </div>
 
                           <div class="contact__form-div contact__form-area">
@@ -685,7 +685,8 @@
                             <textarea name="message" placeholder="Write your project or content " id="" cols="30" rows="10" class="contact__form-input"></textarea>
                           </div>
                             <input type="hidden" name="_next" value="index.html">
-                          <button class="button button--ghost" type="button">Send Message</button>
+                            <input type="hidden" name="_captcha" value="false">
+                          <button class="button button--ghost" type="submit">Send Message</button>
                         </form>
                     </div>
                 </div>
