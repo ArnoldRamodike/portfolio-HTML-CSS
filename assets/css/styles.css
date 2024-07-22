@@ -959,7 +959,7 @@ body.light-theme{
     margin: 0 auto;
   }
   .about__info{
-    grid-template-columns: repeat(2, 140px);
+    grid-template-columns: repeat(3, 140px);
     justify-content: center;
   }
   .about__description{
